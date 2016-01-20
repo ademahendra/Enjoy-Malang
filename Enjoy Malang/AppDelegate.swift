@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreData
+var apiurl = "http://api.enjoymalang.com/v1/"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

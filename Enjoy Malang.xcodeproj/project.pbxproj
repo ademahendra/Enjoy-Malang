@@ -14,6 +14,9 @@
 		3015DA421B50BB3200EDC79B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3015DA411B50BB3200EDC79B /* Images.xcassets */; };
 		3015DA451B50BB3200EDC79B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3015DA431B50BB3200EDC79B /* LaunchScreen.xib */; };
 		3015DA511B50BB3200EDC79B /* Enjoy_MalangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3015DA501B50BB3200EDC79B /* Enjoy_MalangTests.swift */; };
+		3015DA621B50C1EC00EDC79B /* Home_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3015DA611B50C1EC00EDC79B /* Home_TableViewController.swift */; };
+		3015DA641B50C25F00EDC79B /* HomeRow_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3015DA631B50C25F00EDC79B /* HomeRow_TableViewCell.swift */; };
+		3064875F1C48C0FF007F0C47 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064875E1C48C0FF007F0C47 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +27,69 @@
 			remoteGlobalIDString = 3015DA321B50BB3100EDC79B;
 			remoteInfo = "Enjoy Malang";
 		};
+		3064874B1C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		3064874D1C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		3064874F1C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		306487511C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		306487531C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		306487551C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		306487571C48BF0D007F0C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3015DA7A1B50C4BB00EDC79B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3015DA331B50BB3100EDC79B /* Enjoy Malang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enjoy Malang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +103,10 @@
 		3015DA4A1B50BB3200EDC79B /* Enjoy MalangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Enjoy MalangTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3015DA4F1B50BB3200EDC79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3015DA501B50BB3200EDC79B /* Enjoy_MalangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enjoy_MalangTests.swift; sourceTree = "<group>"; };
+		3015DA611B50C1EC00EDC79B /* Home_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_TableViewController.swift; sourceTree = "<group>"; };
+		3015DA631B50C25F00EDC79B /* HomeRow_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRow_TableViewCell.swift; sourceTree = "<group>"; };
+		306487411C48BF09007F0C47 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../Downloads/Alamofire-master 3/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		3064875E1C48C0FF007F0C47 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +130,7 @@
 		3015DA2A1B50BB3100EDC79B = {
 			isa = PBXGroup;
 			children = (
+				306487411C48BF09007F0C47 /* Alamofire.xcodeproj */,
 				3015DA351B50BB3100EDC79B /* Enjoy Malang */,
 				3015DA4D1B50BB3200EDC79B /* Enjoy MalangTests */,
 				3015DA341B50BB3100EDC79B /* Products */,
@@ -79,6 +149,7 @@
 		3015DA351B50BB3100EDC79B /* Enjoy Malang */ = {
 			isa = PBXGroup;
 			children = (
+				3064875E1C48C0FF007F0C47 /* Alamofire.swift */,
 				3015DA381B50BB3100EDC79B /* AppDelegate.swift */,
 				3015DA3A1B50BB3100EDC79B /* FirstViewController.swift */,
 				3015DA3C1B50BB3100EDC79B /* SecondViewController.swift */,
@@ -86,6 +157,8 @@
 				3015DA411B50BB3200EDC79B /* Images.xcassets */,
 				3015DA431B50BB3200EDC79B /* LaunchScreen.xib */,
 				3015DA361B50BB3100EDC79B /* Supporting Files */,
+				3015DA611B50C1EC00EDC79B /* Home_TableViewController.swift */,
+				3015DA631B50C25F00EDC79B /* HomeRow_TableViewCell.swift */,
 			);
 			path = "Enjoy Malang";
 			sourceTree = "<group>";
@@ -115,6 +188,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		306487421C48BF09007F0C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3064874C1C48BF0D007F0C47 /* Alamofire.framework */,
+				3064874E1C48BF0D007F0C47 /* Alamofire iOS Tests.xctest */,
+				306487501C48BF0D007F0C47 /* Alamofire.framework */,
+				306487521C48BF0D007F0C47 /* Alamofire OSX Tests.xctest */,
+				306487541C48BF0D007F0C47 /* Alamofire.framework */,
+				306487561C48BF0D007F0C47 /* Alamofire tvOS Tests.xctest */,
+				306487581C48BF0D007F0C47 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +212,7 @@
 				3015DA2F1B50BB3100EDC79B /* Sources */,
 				3015DA301B50BB3100EDC79B /* Frameworks */,
 				3015DA311B50BB3100EDC79B /* Resources */,
+				3015DA7A1B50C4BB00EDC79B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +247,8 @@
 		3015DA2B1B50BB3100EDC79B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Gees Studio";
 				TargetAttributes = {
@@ -182,6 +272,12 @@
 			mainGroup = 3015DA2A1B50BB3100EDC79B;
 			productRefGroup = 3015DA341B50BB3100EDC79B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 306487421C48BF09007F0C47 /* Products */;
+					ProjectRef = 306487411C48BF09007F0C47 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3015DA321B50BB3100EDC79B /* Enjoy Malang */,
@@ -189,6 +285,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3064874C1C48BF0D007F0C47 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3064874B1C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3064874E1C48BF0D007F0C47 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 3064874D1C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		306487501C48BF0D007F0C47 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3064874F1C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		306487521C48BF0D007F0C47 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 306487511C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		306487541C48BF0D007F0C47 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 306487531C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		306487561C48BF0D007F0C47 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 306487551C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		306487581C48BF0D007F0C47 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 306487571C48BF0D007F0C47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3015DA311B50BB3100EDC79B /* Resources */ = {
@@ -215,9 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3064875F1C48C0FF007F0C47 /* Alamofire.swift in Sources */,
+				3015DA621B50C1EC00EDC79B /* Home_TableViewController.swift in Sources */,
 				3015DA3D1B50BB3100EDC79B /* SecondViewController.swift in Sources */,
 				3015DA391B50BB3100EDC79B /* AppDelegate.swift in Sources */,
 				3015DA3B1B50BB3100EDC79B /* FirstViewController.swift in Sources */,
+				3015DA641B50C25F00EDC79B /* HomeRow_TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -345,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Enjoy Malang/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Enjoy Malang/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +566,7 @@
 				3015DA561B50BB3200EDC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3015DA571B50BB3200EDC79B /* Build configuration list for PBXNativeTarget "Enjoy MalangTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +575,7 @@
 				3015DA591B50BB3200EDC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
